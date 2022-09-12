@@ -151,8 +151,6 @@ let empData = {
 // console.log(typeof(data1));
 // console.log(typeof(data2));
 
-
-
 // functions in JS 
 
 
