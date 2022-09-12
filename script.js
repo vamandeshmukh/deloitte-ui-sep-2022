@@ -60,11 +60,45 @@
 
 // JS - dynamically typed language 
 
-let someVariable = 10;
-console.log(someVariable);
+// let someVariable = 10;
+// console.log(someVariable);
+// console.log(typeof(someVariable));
+// someVariable = 20;
+// console.log(someVariable);
+// console.log(typeof(someVariable));
+// someVariable = `abc`;
+// console.log(someVariable);
+// console.log(typeof(someVariable));
+// someVariable = false;
+// console.log(someVariable);
+// console.log(typeof(someVariable));
+
+// variables are like containers 
+
+// null and undefined and NaN 
 
 
+// 
+let isMarried = true; // false // null
 
+// let a = null;
 
+let a;
+let b = 20;
 
+// console.log(a);
+// console.log(typeof(a));
 
+console.log(a + b);
+
+// falsy = false, 0, null, undefined, ``
+// truthy = remaining  
+
+let someInputValue = 0;
+
+if (someInputValue) {
+    console.log(`value is entered.`);
+}
+else {
+    console.log("value is not entered.")
+}
