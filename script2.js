@@ -52,5 +52,18 @@
 
 // console.log(fun(10, 20));
 
+// args to functions
+
+
+const fun = (arg) => {
+    // let a = arg / 10; // needs a number 
+    let a = `Welcome ${arg}!`; // needs, preferrably a string 
+    console.log(a);
+};
+
+fun(10); // pass a number 
+fun(`Vaman`); // pass a string 
+
+
 
 
