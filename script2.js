@@ -90,16 +90,21 @@ const fun = (abc) => {
 // funThatNeedsAnotherFunAsArg(ghi => console.log(`Anonymous function 2 invoked. ${ghi}`));  // like line 85 
 // funThatNeedsAnotherFunAsArg(fun); // like line 87 
 
-const fun1 = (arg) => {
-    console.log(`fun1`);
-    arg(10);
+const funThatNeedsCallBackFunAsArg = (callBack) => {
+    console.log(`funThatNeedsCallBackFunAsArg`);
+    callBack(10);
 };
 
-const fun2 = (arg2) => { 
-    console.log(`fun2 ${arg2}`); 
+const funPassedAsCallBack = (someArg) => {
+    console.log(`funPassedAsCallBack ${someArg}`);
 };
 
-fun1(fun2);
+funThatNeedsCallBackFunAsArg(funPassedAsCallBack);
+
+
+
+
+
 
 
 
