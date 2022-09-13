@@ -59,8 +59,20 @@ let employeeData = {
 // for (a of employeeData)
 //     console.log(a);
 
-const keysArray = Object.keys(employeeData);
-console.log(keysArray);
+// const keysArray = Object.keys(employeeData);
+// console.log(keysArray);
 
-const valuesArray = Object.values(employeeData);
-console.log(valuesArray);
+// const valuesArray = Object.values(employeeData);
+// console.log(valuesArray);
+
+
+// Object.values(employeeData).forEach((e) => {console.log(e)});
+
+// date class 
+
+const today = new Date();
+
+console.log(today);
+
+console.log(today.getMilliseconds());
+
