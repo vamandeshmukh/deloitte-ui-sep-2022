@@ -86,11 +86,20 @@ const fun = (abc) => {
 // let num = 11;
 // someFun(num);
 
-funThatNeedsAnotherFunAsArg((def) => { console.log(`Anonymous function invoked. ${def} `); });  // like line 85 
-funThatNeedsAnotherFunAsArg((a) => console.log(`Anonymous function 2 invoked. ${a}`));  // like line 85 
+// funThatNeedsAnotherFunAsArg((def) => { console.log(`Anonymous function invoked. ${def} `); });  // like line 85 
+// funThatNeedsAnotherFunAsArg(ghi => console.log(`Anonymous function 2 invoked. ${ghi}`));  // like line 85 
+// funThatNeedsAnotherFunAsArg(fun); // like line 87 
 
-funThatNeedsAnotherFunAsArg(fun); // like line 87 
+const fun1 = (arg) => {
+    console.log(`fun1`);
+    arg(10);
+};
 
+const fun2 = (arg2) => { 
+    console.log(`fun2 ${arg2}`); 
+};
+
+fun1(fun2);
 
 
 
