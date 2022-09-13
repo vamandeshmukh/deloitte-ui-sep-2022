@@ -42,14 +42,15 @@
 // fun(10, 20);
 // fun(10, 20, 30);
 
-const fun2 = (num1, num2) => {
-    return num1 + num2;
-}
+// const fun2 = (num1, num2) => {
+//     return num1 + num2;
+// }
 
-fun2(10);
-fun2(10, 20);
-fun2(10, 20, 30);
+// console.log(fun2(10));
+// console.log(fun2(10, 20));
+// console.log(fun2(10, 20, 30));
 
+// console.log(fun(10, 20));
 
 
 
