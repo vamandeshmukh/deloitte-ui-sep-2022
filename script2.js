@@ -73,23 +73,23 @@
 
 
 
-// const funThatNeedsAnotherFunAsArg = (funPassedAsArgToThisFun) => {
-//     console.log('funThatNeedsAnotherFunAsArg function invoked.');
-//     funPassedAsArgToThisFun();
-// };
+const funThatNeedsAnotherFunAsArg = (funPassedAsArgToThisFun) => {
+    console.log('funThatNeedsAnotherFunAsArg function invoked.');
+    // funPassedAsArgToThisFun();
+    funPassedAsArgToThisFun(10);
+};
 
-// const fun = () => {
-//     console.log('fun function invoked.');
-// }
+const fun = (abc) => {
+    console.log(`fun function invoked. ${abc}`);
+}
+// someFun(10);
+// let num = 11;
+// someFun(num);
 
-// // someFun(10);
-// // let num = 11;
-// // someFun(num);
+funThatNeedsAnotherFunAsArg((def) => { console.log(`Anonymous function invoked. ${def} `); });  // like line 85 
+funThatNeedsAnotherFunAsArg((a) => console.log(`Anonymous function 2 invoked. ${a}`));  // like line 85 
 
-// funThatNeedsAnotherFunAsArg(() => { console.log(`Anonymous function invoked.`); });  // like line 85 
-// funThatNeedsAnotherFunAsArg(() => console.log(`Anonymous function 2 invoked.`));  // like line 85 
-
-// funThatNeedsAnotherFunAsArg(fun); // like line 87 
+funThatNeedsAnotherFunAsArg(fun); // like line 87 
 
 
 
