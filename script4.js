@@ -18,15 +18,16 @@ class Employee {
     works = () => {
         console.log(`Employee with firstName ${this.firstName} works...`);
     }
+    static works2 = () => {
+        console.log(`Employee with firstName ${this.firstName} works 2...`);
+    }
 }
 
-// Java 
-// Employee emp = new Employee();
-
-// JavaScript 
-const emp = new Employee();
+// Employee emp = new Employee(); // Java 
+const emp = new Employee(); // JavaScript 
 emp.firstName = `Sonu`;
 emp.works();
-
 const emp2 = new Employee(102, `Monu`, 10.5);
 emp2.works();
+// emp2.works2();
+Employee.works2();
