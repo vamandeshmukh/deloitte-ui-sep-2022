@@ -168,3 +168,7 @@ const fun2 = () => {
 fun2();
 
 console.log(`End`);
+
+
+// day 2
+
