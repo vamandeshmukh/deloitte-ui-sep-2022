@@ -55,14 +55,49 @@
 // args to functions
 
 
-const fun = (arg) => {
-    // let a = arg / 10; // needs a number 
-    let a = `Welcome ${arg}!`; // needs, preferrably a string 
-    console.log(a);
-};
+// const fun = (arg) => {
+//     let a = arg / 10; // needs a number 
+//     // let a = `Welcome ${arg}!`; // needs, preferrably a string 
+//     console.log(a);
+// };
 
-fun(10); // pass a number 
-fun(`Vaman`); // pass a string 
+// fun(10); // pass a number 
+// fun(`Vaman`); // pass a string 
+
+
+// const fun = (arg) => {
+//     console.log('fun function invoked.');
+//     arg();
+// };
+// fun(???);
+
+
+
+// const funThatNeedsAnotherFunAsArg = (funPassedAsArgToThisFun) => {
+//     console.log('funThatNeedsAnotherFunAsArg function invoked.');
+//     funPassedAsArgToThisFun();
+// };
+
+// const fun = () => {
+//     console.log('fun function invoked.');
+// }
+
+// // someFun(10);
+// // let num = 11;
+// // someFun(num);
+
+// funThatNeedsAnotherFunAsArg(() => { console.log(`Anonymous function invoked.`); });  // like line 85 
+// funThatNeedsAnotherFunAsArg(() => console.log(`Anonymous function 2 invoked.`));  // like line 85 
+
+// funThatNeedsAnotherFunAsArg(fun); // like line 87 
+
+
+
+
+
+
+
+
 
 
 
