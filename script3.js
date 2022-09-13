@@ -31,4 +31,4 @@ fun((arg) => {
 // same as above, but shorter 
 // fun(arg => console.log(arg));
 
-// console.log("Three");
+
