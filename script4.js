@@ -8,6 +8,7 @@ class Employee {
     eid;
     firstName;
     salary;
+    static officePhone;
 
     constructor(eid, firstName, salary) {
         this.eid = eid;
@@ -15,7 +16,7 @@ class Employee {
         this.salary = salary;
     }
 
-    works = () => {
+  works = () => {
         console.log(`Employee with firstName ${this.firstName} works...`);
     }
     static works2 = () => {
@@ -31,3 +32,7 @@ const emp2 = new Employee(102, `Monu`, 10.5);
 emp2.works();
 // emp2.works2();
 Employee.works2();
+emp2.officePhone = 101010;
+console.log(emp2.officePhone);
+
+
