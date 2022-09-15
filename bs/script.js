@@ -9,6 +9,5 @@ const loginFun = () => {
     console.log(pass);
 
     document.getElementById(`welcome`).textContent = welcomeMessage;
-    document.getElementById(`welcome2`).textContent = welcomeMessage;
 
 }
