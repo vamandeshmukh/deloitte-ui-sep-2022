@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
+    <script>
+        const fun = () => {
+            console.log(`fun invoked.`);
+            alert(`button clicked!`);
+        }
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 
 <body>
-
-    <!-- <div> -->
-    <!-- <div class="container-fluid"> -->
     <div class="container">
-        <p>Bootstrap Intro</p>
-        <p>This is introduction to bootstrap.</p>
-        <p>Bootstrap contextual colors</p>
+        <p class="display-4">HTML and JS</p>
+        <p class="lead">Using JS in HTML</p>
+        <hr />
+        <div>
+            <input type="button" class="btn btn-primary" value="Click here" onclick="fun()" />
+        </div>
     </div>
-
 </body>
 
 </html>
