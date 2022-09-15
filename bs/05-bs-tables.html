@@ -17,29 +17,81 @@
             <p class="lead text-info">Bootstrap Tables</p>
             <p class="text-muted">Bootstrap provides classes that make tables look better.</p>
             <div>
-
+                <p class="lead">Table with Bootstrap 1</p>
+                <div class="table">
+                    <div class="row thead-dark">
+                        <span class="col-2">Company</span>
+                        <span class="col-2">Contact</span>
+                        <span class="col-2">Country</span>
+                    </div>
+                    <div class="row">
+                        <span class="col-2">Alfreds </span>
+                        <span class="col-2">Maria Anders</span>
+                        <span class="col-2">Germany</span>
+                    </div>
+                    <div class="row">
+                        <span class="col-2">Centro </span>
+                        <span class="col-2">Francisco Chang</span>
+                        <span class="col-2">Mexico</span>
+                    </div>
+                </div>
             </div>
             <div>
-                <p>Simple HTML Table</p>
-                <table>
+                <p class="lead">Table with Bootstrap 2</p>
+                <table class="table table-hover">
                     <thead>
-                        <th>Company</th>
-                        <th>Contact</th>
-                        <th>Country</th>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
                     </thead>
                     <tbody>
-                        <td>Alfreds </td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                    </tbody>
-                    <tbody>
-                        <td>Centro </td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
+
+
         </div>
+        <div>
+            <p class="lead">Simple HTML Table</p>
+            <table>
+                <thead>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </thead>
+                <tbody>
+                    <td>Alfreds </td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tbody>
+                <tbody>
+                    <td>Centro </td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tbody>
+            </table>
+        </div>
+
     </div>
 </body>
 
